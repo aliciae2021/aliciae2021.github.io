@@ -5,7 +5,7 @@
 
 body {
     background: lavender;
-    background: linear-gradient(to right, lavender, rgb(234, 153, 180));
+    background: linear-gradient(to right, rgb(232, 232, 236), rgb(168, 220, 250));
 }
 
 .container
