@@ -3,14 +3,16 @@
     font-size: 18px;
 }
 
-body {
-    background: linear-gradient(to right, rgb(232, 232, 236), rgb(168, 220, 250));
-}
 :root{
     --backgroundcolor1: rgb(232, 232, 236);
     --backgroundcolor2: rgb(168, 220, 250);
     --backgroundcolor3: whitesmoke;
 }
+
+body {
+    background: linear-gradient(to right, var(--backgroundcolor1), var(--backgroundcolor2));
+}
+
 .container {
     background-color: var(--backgroundcolor3);
     padding: 10px;
@@ -40,8 +42,7 @@ h5{
 .links{
     background-color: var(--backgroundcolor3);
     padding: 10px;
-    border-radius: 10px;
-    color: black;
+    border-radius: 20px;
 }
 .links ul{
     display: flex;
@@ -56,10 +57,11 @@ h5{
     border-radius: 10px;
     text-decoration: none;
     background-color: var(--backgroundcolor1);
+    color: black;
 }
-.links a:hover{
+a:hover{
     background-color: var(--backgroundcolor2);
 }
-.links a:visited{
+a:visited{
     color: black;
 }
